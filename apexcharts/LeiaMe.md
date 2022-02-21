@@ -76,9 +76,9 @@ Apresentação:
 	
 	http://localhost/grafico/apexcharts/03/
 	
-Finalização: 
+Finalização:
 
-![image](https://user-images.githubusercontent.com/1613816/154960373-04f56031-7d04-4806-a282-15f72ff457cf.png)
+![image](https://user-images.githubusercontent.com/1613816/154961841-5c86a46a-ebc0-42bc-8172-3da2e6595a86.png)
 
 Lembrando que as grades de fundo estão no gráfico, mas a imagem do meu monitor não favorece.
 
