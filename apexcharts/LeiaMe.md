@@ -50,3 +50,11 @@ Primeiro finalização:
 
 ![image](https://user-images.githubusercontent.com/1613816/154950374-6b2b867b-1d67-411e-9176-f2b7a7578111.png)
 
+
+#### Aula 02
+
+	APEXCHARTS #02 COMO LER A DOCUMENTAÇÃO
+	
+	https://www.youtube.com/watch?v=Jn5WY2ijRdA
+	
+
