@@ -123,6 +123,11 @@ Inserindo dados na Tabela:
 	
 ![image](https://user-images.githubusercontent.com/1613816/154974546-a76199e8-e898-48b6-ba31-813c14088768.png)
 
+Apresentação da página: 
+	
+	http://localhost/grafico/apexcharts/05/
+	
+
 	
 
 	
