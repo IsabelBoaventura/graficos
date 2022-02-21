@@ -69,6 +69,25 @@ Primeiro finalização:
 	APEXCHARTS #03 CONSTRUÇÃO DE UM GRÁFICO DE BARRAS
 	https://www.youtube.com/watch?v=xucT2iVS64s
 	
+Adicionando caracteristicas ao gráfico;
+Apresentação: 
+	
+	http://localhost/grafico/apexcharts/03/
+	
+Finalização: 
+
+	![image](https://user-images.githubusercontent.com/1613816/154960373-04f56031-7d04-4806-a282-15f72ff457cf.png)
+
+Lembrando que as grades de fundo estão no gráfico, mas a imagem do meu monitor não favorece.
+
+#### Aula 04
+
+	APEXCHARTS #04 CONSTRUÇÃO DE UM GRÁFICO DE LINHAS
+	https://www.youtube.com/watch?v=kmY_KyhiDoU
+	
+
+	
+	
 
 	
 
