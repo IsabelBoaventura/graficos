@@ -66,6 +66,8 @@ Primeiro finalização:
 	
 	https://www.youtube.com/watch?v=Jn5WY2ijRdA
 	
+Não foi criada a pasta 02.
+	
 #### Aula 03
 
 	APEXCHARTS #03 CONSTRUÇÃO DE UM GRÁFICO DE BARRAS
