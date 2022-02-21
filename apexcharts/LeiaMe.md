@@ -87,6 +87,21 @@ Lembrando que as grades de fundo estão no gráfico, mas a imagem do meu monitor
 	APEXCHARTS #04 CONSTRUÇÃO DE UM GRÁFICO DE LINHAS
 	https://www.youtube.com/watch?v=kmY_KyhiDoU
 	
+Modificando os graficos e acrescentando novas caracteristicas.
+
+Tipo de curva
+
+	https://apexcharts.com/docs/options/stroke/
+	
+![image](https://user-images.githubusercontent.com/1613816/154970123-616c4d4a-c2d8-42aa-a667-eda3853f9fdf.png)
+
+#### Aula 05
+
+	APEXCHARTS #05 CONSTRUIR GRÁFICO COM PHP E MYSQL
+	https://www.youtube.com/watch?v=V55q_6nx1B8
+	
+	
+	
 	
 
 	
