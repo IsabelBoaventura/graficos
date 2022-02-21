@@ -203,3 +203,10 @@ Para este exemplo teremos um grafico com 4 botões, ao clicar em cada um dos Bot
 
 Todos os 4 trimestre sendo mostrado com  seus respectivos valores. 
 Entretanto as informações ainda são estáticas. 
+
+#### Aula 09
+
+	APEXCHARTS #09 GRÁFICO DE BARRAS COM AJAX E COM ATUALIZAÇÃO A CADA SEGUNDO
+	https://www.youtube.com/watch?v=cP2u9rDp3d4
+	
+
