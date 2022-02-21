@@ -156,6 +156,13 @@ Método updateSeries
 ![image](https://user-images.githubusercontent.com/1613816/155004173-5811eee9-9a24-4e7c-b8a0-27783f5acd44.png)
 
 Na primeira imagem as informações do Grafico original,  na segunda imagem as informações após clicar no botao 'Alterar'.
+
+#### Aula 08 
+
+	APEXCHARTS #08 ATUALIZAÇÃO DO GRÁFICO COM AJAX
+	https://www.youtube.com/watch?v=SAPalLkcGKw
+	
+
 	
 
 
