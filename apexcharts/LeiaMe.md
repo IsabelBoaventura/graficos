@@ -2,6 +2,8 @@
 # Gráficos
 
 Baseado nos videos de João Ribeiro
+
+	https://www.youtube.com/user/JLDRPT/playlists
 	
 	https://www.youtube.com/watch?v=ObrwYf7lYy0
 
