@@ -57,4 +57,11 @@ Primeiro finalização:
 	
 	https://www.youtube.com/watch?v=Jn5WY2ijRdA
 	
+#### Aula 03
+
+	APEXCHARTS #03 CONSTRUÇÃO DE UM GRÁFICO DE BARRAS
+	https://www.youtube.com/watch?v=xucT2iVS64s
+	
+
+	
 
