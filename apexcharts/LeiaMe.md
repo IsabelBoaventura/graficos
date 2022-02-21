@@ -1,5 +1,5 @@
 
-# Gráficos
+# Gráficos com ApexCharts
 
 Baseado nos videos de João Ribeiro
 
