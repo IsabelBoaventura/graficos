@@ -28,3 +28,10 @@ Primeira apresentação, gráfico contendo as informações,  mas enorme da tela
 
 
 ![image](https://user-images.githubusercontent.com/1613816/154949030-ace72a0f-b07d-4fce-95bf-c34a4dc8e7bd.png)
+
+Arrumando as caracteristicas de altura e largura do Grafico;
+
+Primeiro finalização:
+
+![image](https://user-images.githubusercontent.com/1613816/154950374-6b2b867b-1d67-411e-9176-f2b7a7578111.png)
+
