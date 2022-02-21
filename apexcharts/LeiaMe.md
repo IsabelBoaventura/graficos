@@ -151,6 +151,12 @@ Método updateSeries
 
 	https://apexcharts.com/docs/methods/#updateSeries
 	
+![image](https://user-images.githubusercontent.com/1613816/155004128-95001c02-26ce-4297-a6b8-59923e2b3c7e.png)
+
+![image](https://user-images.githubusercontent.com/1613816/155004173-5811eee9-9a24-4e7c-b8a0-27783f5acd44.png)
+
+Na primeira imagem as informações do Grafico original,  na segunda imagem as informações após clicar no botao 'Alterar'.
+	
 
 
 
