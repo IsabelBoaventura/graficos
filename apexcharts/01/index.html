@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/apexcharts.min.js"></script>
+</head>
+<body>
+    <div id="grafico"></div>
+
+    <script>
+        let el = document.getElementById("grafico");
+        let options = {
+            chart:{
+                type: 'bar'
+
+            }, 
+            series: [
+                {
+                    name: 'População',
+                    data: [10, 30, 20]
+                }
+            ],
+
+        };
+        let chart = new ApexCharts(el, options );
+        chart.render()
+    </script>
+    
+</body>
+</html>
