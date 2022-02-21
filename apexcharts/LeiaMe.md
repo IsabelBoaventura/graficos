@@ -18,6 +18,13 @@ Na Documentação da biblioteca,  buscar as informações em 'Options ( Referenc
 
 	https://apexcharts.com/docs/options/chart/animations/
 	
+Quando já se tem a definição do Grafico que deseja implementar a melhor forma de procurar pela documentação do Grafico é no exemplo dele.
+Um exempo é o grafico de colunas:
+
+	https://apexcharts.com/javascript-chart-demos/column-charts/basic/
+	
+Na Documentação  ha como reproduzir um grafico assim, depois modifique para as suas informações.
+	
 	
 
 ## Mão na massa
