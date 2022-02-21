@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/apexcharts.min.js"></script>
+</head>
+<body>
+    <h3>Participantes do Passatempo</h3>
+    <div id="grafico"></div>
+
+    <script>
+        // vai buscar o elemento HTML onde o grafico vai ser renderizado
+        let el = document.getElementById("grafico");
+
+        //definição das opções do grafico
+        let options = {
+            chart:{
+                type: 'bar',
+                height: 700,
+                width: 500
+
+            }, 
+            series: [
+                {
+                    name: 'Homens',
+                    data: [12, 35, 72, 45, 23, 45, 28 ]
+                },
+                {
+                    name: 'Mulheres',
+                    data: [22, 18, 32, 56, 63, 26, 42 ]
+                }
+
+            ],
+            xaxis: {
+                categories:   [ '2ª-feira', '3ª-feira', '4ª-feira', '5ª-feira', '6ª-feira', 'sábado', 'Domingo' ]
+
+            },
+            // labels ou xaxis: categories tem a mesma função 
+
+            // labels: [ '2ª-feira', '3ª-feira', '4ª-feira', '5ª-feira', '6ª-feira', 'sábado', 'Domingo' ]
+            plotOptions:{
+                bar: {
+                    horizontal: false,
+                    dataLabels:{
+                        position: 'top' // top // botton //center 
+                    }
+                }
+            },
+            yaxis:{
+                min:10, 
+                max: 80
+            },
+            grid: {
+                show: true,
+                xaxis: {
+                    lines: {
+                        show: true
+                    }
+                }
+            },
+            colors: ['#4466FF','#FF6688']
+
+        };
+
+        // criação do objeto a partir da biblioteca ApexCharts
+        let chart = new ApexCharts(el, options );
+
+
+        //renderização do grafico na pagina 
+        chart.render()
+    </script>
+    
+</body>
+</html>
