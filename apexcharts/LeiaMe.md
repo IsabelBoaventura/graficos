@@ -1,4 +1,6 @@
 
+# Gráficos
+
 Baseado nos videos de João Ribeiro
 	
 	https://www.youtube.com/watch?v=ObrwYf7lYy0
@@ -8,12 +10,25 @@ Baseado nos videos de João Ribeiro
 Usando  a Biblioteca 
 
 	https://apexcharts.com
+	
+## Documentação
 
-Escolhi colocar a biblioteca dentro do sistema, como ele também fez. 
+Gráficos com conjuntos de finalidades já definidas, com menu de aplicação e podendo fazer importação;
+Na Documentação da biblioteca,  buscar as informações em 'Options ( References)', por exemplo quando for animações: 
+
+	https://apexcharts.com/docs/options/chart/animations/
+	
+	
+
+## Mão na massa
+Escolhi colocar a biblioteca dentro do sistema, assim como orientado. 
 
 	apexcharts.min.js
 
 Adicionada a pasta 'js' e dentro dela o arquivo acima;
+
+
+
 
 Criada a pasta 01 para o primeiro exercicio;
 
