@@ -130,3 +130,10 @@ Apresentação da página:
 Resultado trazendo as informações do banco ( modificado os valores ):
 
 ![image](https://user-images.githubusercontent.com/1613816/154979884-b375f337-607a-4332-9319-93051d1050be.png)
+
+#### Aula 06
+
+	APEXCHARTS #06 CONSTRUIR GRÁFICO COM PHP E MYSQL AINDA MAIS DINÂMICO
+	https://www.youtube.com/watch?v=06tTS7t3saU
+	
+
