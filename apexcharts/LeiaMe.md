@@ -127,15 +127,6 @@ Apresentação da página:
 	
 	http://localhost/grafico/apexcharts/05/
 	
-Resultado trazendo as informações do banco:
+Resultado trazendo as informações do banco ( modificado os valores ):
+
 ![image](https://user-images.githubusercontent.com/1613816/154979884-b375f337-607a-4332-9319-93051d1050be.png)
-
-	
-
-	
-
-	
-	
-
-	
-
