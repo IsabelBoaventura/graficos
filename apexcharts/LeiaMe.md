@@ -147,6 +147,12 @@ Pegando os dados do banco de dados e mostrando conforme  for o resultado:
 	
 Iremos adicionar um botão no index.html  para ele alterar os dados ja existentes.
 
+Método updateSeries
+
+	https://apexcharts.com/docs/methods/#updateSeries
+	
+
+
 
 
 	
