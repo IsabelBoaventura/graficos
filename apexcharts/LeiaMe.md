@@ -162,11 +162,44 @@ Na primeira imagem as informações do Grafico original,  na segunda imagem as i
 	APEXCHARTS #08 ATUALIZAÇÃO DO GRÁFICO COM AJAX
 	https://www.youtube.com/watch?v=SAPalLkcGKw
 	
+Para a aula 08 iremos usar além da biblioteca `ApexCharts`, as bibliotecas `bootstrap` e `axios`;
 
+Será criada a pasta 'libs' e  a pasta 'ajax'
+Dentro da pasta 'ajax' será criado o arquivo 'script.php';
+
+Dentro da pasta 'libs' terá as bibliotecas;
+
+ ##### bootstrap 5
+ 
+ 	https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
+
+CSS
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+Buscar a Pagina
 	
+	https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css
+
+salvo como: 'bootstrap_v5-0-2.min.css'
 
 
+##### axios cdn
+
+	https://cdnjs.com/libraries/axios
+	https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js
 
 
-	
+salvo na pasta 'libs' com o nome de 'axios.min.js'
 
+Adicionada nesta pasta a bilbioteca de ApexCharts,  obtida anteriormente;
+
+Para este exemplo teremos um grafico com 4 botões, ao clicar em cada um dos Botoes o grafico receberá as series  referente a este botão.
+
+![image](https://user-images.githubusercontent.com/1613816/155039922-24a8a219-5ada-4924-891c-9e121eaba895.png)
+
+![image](https://user-images.githubusercontent.com/1613816/155039955-dc3afe37-a8ee-418a-bf86-6167433a842e.png)
+
+Todos os 4 trimestre sendo mostrado com  seus respectivos valores. 
+Entretanto as informações ainda são estáticas. 
