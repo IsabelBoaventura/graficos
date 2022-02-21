@@ -102,8 +102,27 @@ Tipo de curva
 	APEXCHARTS #05 CONSTRUIR GRÁFICO COM PHP E MYSQL
 	https://www.youtube.com/watch?v=V55q_6nx1B8
 	
+Vamos usar 'laragon' para gerenciar o Dados:
+
+
+
+Criando a base de dados:
+	base_de_dados
+Criando a tabela:
+
+	use base_de_dados;
+	CREATE TABLE dados(
+ 		Id_Dados int(11) NOT NULL auto_increment PRIMARY KEY,
+ 		Homens int(11),
+ 		Mulheres int(11)
+	);
+
+Inserindo dados na Tabela:
+
+	INSERT INTO dados (Homens, Mulheres)VALUES (10,18);
 	
-	
+![image](https://user-images.githubusercontent.com/1613816/154974546-a76199e8-e898-48b6-ba31-813c14088768.png)
+
 	
 
 	
