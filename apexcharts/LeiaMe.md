@@ -140,5 +140,14 @@ Pegando os dados do banco de dados e mostrando conforme  for o resultado:
 
 ![image](https://user-images.githubusercontent.com/1613816/154988550-215e2a32-15f1-4d34-a228-65638302ecd7.png)
 
+#### Aula 07
+
+	APEXCHARTS #07 ATUALIZAR DADOS DE UM GRÁFICO SEM REFRESCAR A PÁGINA
+	https://www.youtube.com/watch?v=LuKv944GufQ
+	
+Iremos adicionar um botão no index.html  para ele alterar os dados ja existentes.
+
+
+
 	
 
