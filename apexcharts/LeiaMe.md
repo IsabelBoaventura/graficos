@@ -222,6 +222,32 @@ Ao clicar no botao 'Start' começa a alimentar o grafico. No botao 'Stop' para o
 
 	APEXCHARTS #10 PROJETO FINAL COM PHP, AJAX E MYSQL
 	https://www.youtube.com/watch?v=Rpe9BMzGoEs
+
+Será acrescentada uma nova bibliteca desenvolvida por 'João Ribeiro' para fazer a comunicação com o banco de dados;
+
+Adicionada na pasta 'libs' com no nome de `EasyPDO.php`;
+
+Criação do bando de dados para este teste: 
+	
+	CREATE DATABASE temperatura;
+Criação da tabela ( dentro do Workbenk):
+
+	USE temperatura;
+	CREATE TABLE IF NOT EXISTS `medidas` (
+		Id_Medidas  int(11) NOT NULL auto_increment PRIMARY KEY,
+		Valor int(11),
+		created_at datetime
+	);
+
+O correto deveria ser assim: 'Valor double(3,2),' mas  para o exemplo ficar funcional deve deixar da forma mais simples possivel;
+
+Criação do arquivo para adicionar as informações `enter_dados.php` será criado no diretório raiz do projeto ( dentro da pasta 10 );
+
+
+	
+Resultado final:
+![image](https://user-images.githubusercontent.com/1613816/155142909-cf2fbc20-44e2-47de-8dd3-4ca3c1ddbb3c.png)
+
 	
 
 
