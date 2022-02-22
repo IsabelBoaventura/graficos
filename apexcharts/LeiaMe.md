@@ -248,8 +248,7 @@ Criação do arquivo para adicionar as informações `enter_dados.php` será cri
 Resultado final:
 ![image](https://user-images.githubusercontent.com/1613816/155142909-cf2fbc20-44e2-47de-8dd3-4ca3c1ddbb3c.png)
 
-	
 
+Finalizado os videos com uso de ApexCharts.
 
-	
-
+Agora colocar em prática!!	
