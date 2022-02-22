@@ -209,4 +209,21 @@ Entretanto as informações ainda são estáticas.
 	APEXCHARTS #09 GRÁFICO DE BARRAS COM AJAX E COM ATUALIZAÇÃO A CADA SEGUNDO
 	https://www.youtube.com/watch?v=cP2u9rDp3d4
 	
+Grafico será modificado a cada determinado intervalo de  tempo;
+Comunicação via ajax;
+As informações são geradas randomicamente;
+
+![image](https://user-images.githubusercontent.com/1613816/155049167-4e18203a-4ed1-4c57-9c46-bdf5589180e4.png)
+
+Ao clicar no botao 'Start' começa a alimentar o grafico. No botao 'Stop' para o grafico como esta.
+
+
+#### Aula 10
+
+	APEXCHARTS #10 PROJETO FINAL COM PHP, AJAX E MYSQL
+	https://www.youtube.com/watch?v=Rpe9BMzGoEs
+	
+
+
+	
 
