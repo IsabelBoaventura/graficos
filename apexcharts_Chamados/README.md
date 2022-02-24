@@ -27,6 +27,8 @@ Tendo as informações do banco de dados , criar a nova tabela `chamados_totais`
 ## Banco de Dados 
 
 * Tabela Semanas;
+
+
 Apartir da Semana poder buscar os dias;
 
 	CREATE TABLE IF NOT EXISTS `semanas` (
@@ -37,7 +39,9 @@ Apartir da Semana poder buscar os dias;
 	);
 
 * Tabela Chamados_Totais;
+
 Para facilitar a busca dos dados no dia ou por periodo; 
+
 Neste momento ( acredito que irá ficar apenas assim) contém o total de chamados por Atendentes;
 
 	CREATE TABLE IF NOT EXISTS `chamados_totais` (
