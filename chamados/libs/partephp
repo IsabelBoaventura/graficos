@@ -1,0 +1,75 @@
+ 
+        $totais = 0;
+        if( $totais >0){
+
+            $resultados_fin = $conn->query(
+                $sql_todos . $sql_fin . ";"
+            );
+     
+     
+            $rows_fin = $resultados_fin->fetchAll( PDO::FETCH_ASSOC );
+       
+            $totais_fin  = $resultados_fin->rowCount();
+            echo '<br>';
+            print_r("Encontradas  Totais dos Finalizados $totais_fin  linhas.\n");
+            echo '<br>';
+
+            $sql_insert = "INSERT INTO chamados_totais 
+            (Data_Atendimento, Atendente, Total_Atendente, created_at, updated_at, Situacao, Total_Finalizados) 
+            VALUES (?,?,?,  now(), now() , ?,?)";
+            $stmt= $conn->prepare($sql_insert);
+            $stmt->execute([$dia, $atendente, $totais,  $situacao, $totais_fin ]);
+          
+            /* $parametros = [        
+                ':data1' => $_POST['data'],
+                ':atendente' =>  $_POST['atendente'],
+                ':total_atendente' => $totais , 
+                ':sit'  => 'A',
+                ':total_fin' =>   $totais_fin
+            ];       
+            // 
+            var_dump( $parametros );*/
+
+
+            /*   $bd->insert("INSERT INTO chamados_totais VALUES (0,  :data1,  :atendente , :total_atendente ,  now() , now(),  :sit,  :total_fin  )", $parametros);
+               //sou obrigada a adicionar o valor do id, mesmo sendo 0
+            */
+                echo '<br> Inserido o valor com sucesso: ' ;
+       
+            /**/
+
+
+
+
+
+   
+            echo '<br> Inserido o valor com sucesso: ' ;
+   
+        }/**/
+
+
+
+
+
+        
+
+
+
+
+    /** Testado e inserido com sucesso  */
+    /*
+    $parametros = [        
+        ':data1' => '2022-02-18',
+        ':atendente' => '5',
+        ':total_atendente' =>'10', 
+        ':sit'  => 'A',
+        ':total_fin' => '5'
+    ];
+
+    // var_dump( $parametros );
+    $bd->insert("INSERT INTO chamados_totais VALUES ( 0,  :data1,  :atendente , :total_atendente ,  now() , now(),  :sit,  :total_fin  )", $parametros);
+    //sou obrigada a adicionar o valor do id, mesmo sendo 0
+
+    echo '<br> Inserido o valor com sucesso: ' ;
+
+  */
