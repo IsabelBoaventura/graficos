@@ -14,7 +14,7 @@ No momento apenas testes trazendo as informações do banco de Dados, da tabela 
 Tendo as informações do banco de dados , criar a nova tabela `chamados_totais`, e inserir estas informações nesta tabela;
 
 
-## Projetos a serem Implementados:
+## Características do Projeto:
 
 	1 - Totais de chamados por dia/semana/mes/ano;
 		1.1 Totais de chamados finalizados ( por dia? )
@@ -26,63 +26,40 @@ Tendo as informações do banco de dados , criar a nova tabela `chamados_totais`
 
 ## Banco de Dados 
 
+* Tabela Semanas;
+Apartir da Semana poder buscar os dias;
 
+	CREATE TABLE IF NOT EXISTS `semanas` (
+		Id_Semana  int(11) NOT NULL auto_increment PRIMARY KEY,
+		AnoSemana int(6) NOT NULL,
+		DataInicio date,
+		DataFim date
+	);
 
-use simples_controle;
+* Tabela Chamados_Totais;
+Para facilitar a busca dos dados no dia ou por periodo; 
+Neste momento ( acredito que irá ficar apenas assim) contém o total de chamados por Atendentes;
 
-CREATE TABLE IF NOT EXISTS `semanas` (
-	Id_Semana  int(11) NOT NULL auto_increment PRIMARY KEY,
-	AnoSemana int(6) NOT NULL,
-	DataInicio date,
-	DataFim date
-);
+	CREATE TABLE IF NOT EXISTS `chamados_totais` (
+		Id_Total  int(11) NOT NULL auto_increment PRIMARY KEY,
+		Data_Atendimento date   ,
+		Atendente int(11) , 
+		Total_Atendente int(11) ,
+		Total_Finalizados INT(11), 
+		created_at datetime ,
+		updated_at datetime ,
+		Situacao char(1)
+	);
 
+## SQL de Consultas 
 
+Algumas sql que foi usada apenas no banco de dados para se obter os resultados, assim tendo como comparar com os resultados que o sistema trouxe;
 
-CREATE TABLE IF NOT EXISTS `chamados_totais` (
-	Id_Total  int(11) NOT NULL auto_increment PRIMARY KEY,
-	Data_Atendimento int(10) NOT NULL  ,
-	Atendente int(11) NOT NULL, 
-	Total_Atendente int(11) NOT NULL, 
-	created_at datetime ,
-	updated_at datetime ,
-	Situacao char(1)
-);
+   * Quantidade por dia, por atendente e Finalizado;
 
-
-Alter table chamados_totais Add Total_Situacao INT(11);
-
-
-ALTER TABLE chamados_totais
-CHANGE Total_Situacao Total_Finalizados INT(11) ;
-
-
-ALTER TABLE chamados_totais
-CHANGE Data_Atendimento Data_Atendimento date ;
-
-
-sql de consultas 
-
-SELECT * FROM chamado
-WHERE DH_Chamado >= '2022-02-18 00:00:01' 
-  AND DH_Chamado <= '2022-02-18 23:59:59' 
-  AND Usuario_Atendimento= '5' 
-  AND Finalizado = 'S' ;  
-
-
-
-
-
-SELECT *, (SELECT * FROM chamado
-		WHERE DH_Chamado >= '2022-02-18 00:00:01' 
-  		AND DH_Chamado <= '2022-02-18 23:59:59' 
-  		AND Usuario_Atendimento= '5' 
-  	   ) total
-FROM chamado
-WHERE DH_Chamado >= '2022-02-18 00:00:01' 
-  AND DH_Chamado <= '2022-02-18 23:59:59' 
-  AND Usuario_Atendimento= '5'
-  AND Finalizado = 'S' ;
-
-
+	SELECT * FROM chamado
+	WHERE DH_Chamado >= '2022-02-18 00:00:01' 
+	AND DH_Chamado <= '2022-02-18 23:59:59' 
+	AND Usuario_Atendimento= '5' 
+	AND Finalizado = 'S' ;  
 
