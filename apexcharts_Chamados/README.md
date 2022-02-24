@@ -15,13 +15,13 @@ Tendo as informações do banco de dados , criar a nova tabela `chamados_totais`
 
 
 ## Projetos a serem Implementados:
-   1 - Totais de chamados por dia/semana/mes/ano;
-       1.1 Totais de chamados finalizados ( por dia? )
-   
-  1.2 Totais de chamados por situações ( dia/semana/mes/ano );
-2 - Cliente que mais solicitou  abertura de chamado
-3 - Usuario do suporte x quantidade de atendimentos prestados por dia/semana/mês/ano
-4 - Pico de maior horário de atendimento no suporte - maior fluxo de chamados;
+
+	1 - Totais de chamados por dia/semana/mes/ano;
+		1.1 Totais de chamados finalizados ( por dia? )
+		1.2 Totais de chamados por situações ( dia/semana/mes/ano );
+	2 - Cliente que mais solicitou  abertura de chamado
+	3 - Usuario do suporte x quantidade de atendimentos prestados por dia/semana/mês/ano
+	4 - Pico de maior horário de atendimento no suporte - maior fluxo de chamados;
 
 
 ## Banco de Dados 
