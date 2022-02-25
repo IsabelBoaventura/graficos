@@ -49,7 +49,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $qtd=0;
         $qtd_fin = 0; 
         $totais = 0;
-        $temp['Quantidade'][] = '';
+        
 
         while($row = $resultados->fetch(PDO::FETCH_ASSOC)) {
             $chave = $row['Usuario_Atendimento'];
