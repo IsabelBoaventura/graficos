@@ -20,8 +20,7 @@ Url da nossa pagina:
 
         http://localhost/grafico/Chart/03-api/
 
-Já tendo as informações da api criar o grafico;
-  
+Já tendo as informações da api criar o grafico;  
     
     
   ![image](https://user-images.githubusercontent.com/1613816/156270037-476dd796-e92f-4b68-a9ce-e3277c47f6f3.png)
