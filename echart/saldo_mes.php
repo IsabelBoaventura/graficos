@@ -94,11 +94,9 @@ try {
     print_r( $nomeFuncionarioTexto );
     echo '</pre>';
 
-
-
        
-    echo '<table border="3" >';
-    echo "<th>Funcionario</th><th>Nome Funcionario</th><th>Nome no Grafico</th><th>Saldo Anterior </th><th>Saldo Mes </th><th>Saldo Geral</th><th>Horario Grafico</th><th>Ações </th>";
+    $tabela =  "<table border='3'>";
+    $tabela .= "<th>Funcionario</th><th>Nome Funcionario</th><th>Nome no Grafico</th><th>Saldo Anterior </th><th>Saldo Mes </th><th>Saldo Geral</th><th>Horario Grafico</th><th>Ações </th>";
 
     for( $t=0; $t<$count ; $t++){
 
@@ -108,16 +106,16 @@ try {
         $maisUmNome[] = substr( $nomeFuncionario[$t], 0 , $posicao[$t]);
         $nomeGrafico .= " ' ".substr( $nomeFuncionario[$t], 0 , $posicao[$t]) ." ', ";
      
-        echo "<tr>";
-        echo "<td>".$funcionario[$t]."</td><td>".utf8_encode($nomeFuncionario[$t])."</td><td>".utf8_encode($maisUmNome[$t])."</td><td>".
+        $tabela .= "<tr>";
+        $tabela .= "<td>".$funcionario[$t]."</td><td>".utf8_encode($nomeFuncionario[$t])."</td><td>".utf8_encode($maisUmNome[$t])."</td><td>".
                         $saldoGeralAnt[$t]."</td><td>".$saldoMes[$t].  "</td><td>".$saldoGeral[$t]. "</td><td>".  transformaHorasInteiro( $saldoGeral[$t])
                       ."</td><td><center><a href=\"\">[Alterar]</a>"
                       ."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
                       ."<a href=\"\">[Excluir]</a></center></td>";
-       echo "</tr>";   
+        $tabela .= "</tr>";   
 
     }    
-    echo '</table>';
+    $tabela .= '</table>';
 
     //  echo '<br> nome no grafico: '. utf8_decode($nomeGrafico) .'<br>' . utf8_encode( $nomeGrafico);
     // echo '<br> Horario para o grafico: '. $horaGrafico ;
@@ -134,13 +132,20 @@ try {
 <html>
   <head>
     
-    <title> Apache Echarts </title>
+    <title> Apache   </title>
     <!-- Include the ECharts file you just downloaded -->
     <script src="dist/echarts_5_3_1.min.js"></script>
   </head>
   
   <body>
-	<h1>Graficos com Echarts da Apache </h1> 
+
+    <h2>Conteudo do Banco de Dados </h2>
+  
+	
+
+    <?= $tabela ;?>
+
+    <h1>Graficos com Echarts da Apache </h1> 
   <!-- Prepare a DOM with a defined width and height for ECharts -->
   <div id="main" style="width: 750px;height:400px;border: 2px solid blue"></div>
   
